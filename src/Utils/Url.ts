@@ -3,7 +3,9 @@ import Logo from './images/pizza.svg'
 import Pizza from './images/111.png'
 import OnePizza from './mypizza/7.png'
 import Cover from './images/5.png'
-import Footer from './mypizza/10.png'
+import Footer from './mypizza/11.png'
+import newPizza from './mypizza/9.png'
+import Paprak from './mypizza/10.png'
 export const UrlImage  =  {
 
     ScreenImage : FirstImage,
@@ -11,6 +13,8 @@ export const UrlImage  =  {
     Pizza : Pizza,
     OnePizza:OnePizza,
     Cover:Cover,
-    Footer :Footer
+    Footer :Footer,
+    newPizza :newPizza,
+    Paprak : Paprak
 
 }
