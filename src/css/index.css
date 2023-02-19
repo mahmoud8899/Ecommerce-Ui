@@ -4,8 +4,9 @@ h1 {
    
 }
 
-.Ma{
-
+.Imageonther{
+    width: 150px;
+    height: 150px;
 }
 
 .widthhun {
@@ -104,7 +105,7 @@ h1 {
     justify-content: space-between;
 }
 .bx {
-   background-color: #eee;
+   background-color: #eeeeee38;
 }
 .antherColor {
     background-color: #eeeeee2b;
@@ -193,6 +194,9 @@ li:hover {
 .object-fit {
     object-fit: contain;
 }
+.object-fitonther {
+    object-fit: cover;
+}
 
 
 /* If the screen size is 600px wide or less, hide the element */
@@ -215,6 +219,7 @@ li:hover {
         width: 90%;
         height: auto;
     }
+
     .menu-btn__burger {
         width: 30px;
         height: 5px;

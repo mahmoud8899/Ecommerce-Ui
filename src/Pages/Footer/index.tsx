@@ -1,5 +1,6 @@
-import { Col, Form, Image, Row,Container } from "react-bootstrap"
+import { Col, Image, Row, Container } from "react-bootstrap"
 import TheButton from "../../Components/Button"
+import TheInput from "../../Components/TheInput"
 import { UrlImage } from "../../Utils/Url"
 import Log from "../NavBar/Log"
 import MinNav from "../NavBar/Nav"
@@ -37,7 +38,7 @@ const Footer = () => {
                     <h1 className='whitecolor'> Sian up our</h1>
                     <h1 className='whitecolor'>newsletter:</h1>
                     <div >
-                        <Form.Control
+                        <TheInput
                             type="number"
                             placeholder="phone"
                             className='margin-tophalfHave input button'
