@@ -1,11 +1,17 @@
 
 import { UrlImage } from '../../Utils/Url'
 
+
+export interface AllState {
+    openModal: boolean,
+    NewAction: Items ,
+
+}
 export interface Items {
-    _id: number,
-    name: string,
-    image: string,
-    price: number
+    _id?: number,
+    name?: string,
+    image?: string,
+    price?: number
 }
 
 

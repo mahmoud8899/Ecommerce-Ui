@@ -40,19 +40,19 @@ const NavBar = () => {
     return (
         <Container fluid>
             <Row className='justify-content-center '>
-                <Col xs={12} sm={3} md={3} lg={3} className='padding' >
-                    <div className='flex align-items'>
+                <Col xs={12} sm={7} md={7} lg={7} className='padding' >
+                    <div className='flex align-items' onClick={Change}>
 
                         <Log />
 
-                        <div className={css.menubar} onClick={Change} >
+                        <div className={css.menubar}  >
                             <div className='menu-btn__burger' />
                         </div>
 
                     </div>
                 </Col>
 
-                <Col xs={12} sm={9} md={9} lg={9} className='padding'>
+                <Col xs={12} sm={5} md={5} lg={5} className='padding'>
                     <div className={css.hidden}>
                         <MinNav />
                     </div>

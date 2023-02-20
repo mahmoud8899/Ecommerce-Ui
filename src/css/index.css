@@ -1,7 +1,19 @@
 h1 {
     font-family: fantasy;
     font-size: 50px;
-   
+}
+.whitecolor.Link{
+    opacity: 0.9;
+    color: white;
+}
+
+.poistion {
+    position:relative
+}
+.IconClose {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .Imageonther{
@@ -12,6 +24,22 @@ h1 {
 .widthhun {
     width: 50%;
 }
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    border-radius: 2rem !important;
+    overflow: hidden !important;
+    height: 91vh ;
+}
 
 .test {
     border: 2px solid #fecb3d;
@@ -20,10 +48,15 @@ h1 {
     border-top-right-radius: 0.5rem;
 }
 
-
+.border-bottom-left-radius{
+    border-bottom-left-radius: 20%;
+}
 
 .font-family {
     font-family: 'Source Sans Pro', sans-serif;
+}
+.Link.blackColor{
+    color: black;
 }
 
 .blackColor {
@@ -32,6 +65,9 @@ h1 {
 
 .text-align {
     text-align: center;
+}
+.line {
+    line-height: 50px;
 }
 .fontSizeDes {
     font-size: 18px;
@@ -65,9 +101,25 @@ h1 {
 .colorScreen {
     color: #ffc400e1;
 }
-
+.menu-btn {
+    margin-left: auto;
+}
 .margin-left {
     margin-left: 0.5rem;
+}
+.Scroll {
+    height: 250px;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.margin-leftone {
+    margin-left: 1rem;
+}
+.margin-leftone {
+    margin-right: 1rem;
+}
+.margin-toptwo {
+    margin-top: 2rem;
 }
 .margin-tophalf {
     margin-top: 1rem;
@@ -76,6 +128,7 @@ h1 {
 .margin-top {
     margin-top: 5rem;
 }
+
 .margin-tophalfHave {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -114,10 +167,27 @@ h1 {
     align-items: center;
 }
 
+.border-top-line {
+    border-top: 10px solid #eee;
+}
+
+.postionButton{
+    position: absolute;
+    bottom: 1rem;
+    width: 90%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
 
+.Link{
+    text-decoration: none;
+}
 
 ul {
     list-style: none;
@@ -131,11 +201,22 @@ ul li {
 }
 
 li:hover {
+    transition: all 0.10s;
+    opacity: 1;
+}
+
+.ScreenHover{
+    opacity: 0.8;
+}
+.ScreenHover:hover{
     opacity: 1;
 }
 
 .padding {
     padding: 1rem;
+}
+.paddingHalf {
+    padding: 0.5rem;
 }
 .transform{
     transform: rotate(-54deg);
@@ -155,6 +236,9 @@ li:hover {
 
 .blackBa{
     background: #000;
+}
+.whiteBacground {
+    background-color: white;
 }
 
 .redbackground {
@@ -201,6 +285,9 @@ li:hover {
 
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 760px) {
+    .font-sizeCart {
+        font-size: 16px;
+    }
     .FlexSize{
         flex-wrap: wrap;
         justify-content: center;
@@ -229,9 +316,6 @@ li:hover {
         transition: all .5s ease-in-out;
     }
 
-    .menu-btn {
-        margin-left: auto;
-    }
 
     .menu-btn__burger::before,
     .menu-btn__burger::after {

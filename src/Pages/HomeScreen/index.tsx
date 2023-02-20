@@ -1,16 +1,5 @@
 
-import { Container, Row, Col, Image, } from 'react-bootstrap'
-import TheButton from '../../Components/Button'
-import { UrlImage } from '../../Utils/Url'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-// import required modules
-import { Pagination } from "swiper";
-import TheInput from '../../Components/TheInput';
+import { Container } from 'react-bootstrap'
 import NewProducts from './NewProducts';
 import Discount from './Discount';
 import TheMenu from './Menu';

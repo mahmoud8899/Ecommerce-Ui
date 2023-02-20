@@ -1,10 +1,15 @@
+import { useContext } from 'react'
 import { Row, Col, Image, } from 'react-bootstrap'
+import { UtilsOneProduct } from '../../Components/Context'
 import { ItmeCart } from '../../Components/Data/index'
 
 
 
 
 const NewProducts = () => {
+
+
+    let StateChange = useContext(UtilsOneProduct)
 
     return (
         <Row className='justify-content-center padding '>
@@ -28,7 +33,7 @@ const NewProducts = () => {
             <Col xs={11} sm={12} md={10} lg={10} >
                 <Row className='justify-content-center '>
                     {ItmeCart?.map((item, index) => (
-                        <Col xs={6} sm={4} md={4} lg={4} className='Not- margin-top' key={index}>
+                        <Col xs={6} sm={4} md={4} lg={4} className='Not- margin-top' key={index} onClick={()=>StateChange(item)}>
                             <div className='flex flexcolumn align-items justify-content-center margin-tophalfHave '>
                                 <Image
                                     src={item.image}

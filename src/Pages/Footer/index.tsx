@@ -18,6 +18,7 @@ const Footer = () => {
                     <div >
                         <MinNav
                             ClassName='flex whitecolor flexcolumn justify-content-center align-items'
+                            AddNew='whitecolor Link'
 
                         />
                     </div>
