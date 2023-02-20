@@ -12,7 +12,7 @@ const NewProducts = () => {
     let StateChange = useContext(UtilsOneProduct)
 
     return (
-        <Row className='justify-content-center padding '>
+        <Row className='justify-content-center padding' id='new'>
 
             <h1 className='text-align margin-tophalf  colorScreen '>Have you tried the pizza?</h1>
 

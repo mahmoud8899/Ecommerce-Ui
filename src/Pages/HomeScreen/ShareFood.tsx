@@ -11,7 +11,7 @@ const ShareFood = () => {
 
 
 
-    return (<Row className='justify-content-center padding bx'>
+    return (<Row className='justify-content-center padding bx' id='contact'>
 
         <h1 className='text-align margin-tophalf colorScreen '>Pizza to share</h1>
 

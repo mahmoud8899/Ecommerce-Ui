@@ -33,7 +33,7 @@ const TheMenu = () => {
     // [1] show one product and add ...
     return (
         <Fragment>
-            <Row className='justify-content-center padding bx'>
+            <Row className='justify-content-center padding bx' id='menu'>
 
 
                 <h1 className='text-align margin-tophalf colorScreen'>pizza</h1>

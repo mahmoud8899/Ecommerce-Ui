@@ -8,7 +8,7 @@ const Delivery = () =>{
 
 
     return(
-        <Row className='justify-content-center  padding'>
+        <Row className='justify-content-center padding' id='delivery'>
 
 
         <h1 className='text-align margin-tophalf colorScreen '>Home delivery</h1>
