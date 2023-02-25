@@ -1,12 +1,21 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { Items } from '../../Components/Data/index'
 import * as  ActionTypes from './Types'
+
+const getUserFromLocalStorage = () => {
+    try {
+        return JSON.parse(localStorage.getItem(ActionTypes?.ADD_ITEM_CARD) || '');
+    } catch (error) {
+        return [];
+    }
+}
+
 interface Inital {
     cart: Items[],
 }
 const initialState: Inital = {
 
-    cart: JSON.parse(localStorage.getItem(ActionTypes.ADD_ITEM_CARD) || "") ?? []
+    cart: getUserFromLocalStorage()
 
 }
 
@@ -28,14 +37,14 @@ const TheCart = createSlice({
                 state.cart.push(product);
             }
 
-            localStorage.setItem(ActionTypes.ADD_ITEM_CARD, JSON.stringify(state.cart))
+            localStorage.setItem(ActionTypes?.ADD_ITEM_CARD, JSON?.stringify(state.cart))
 
         },
         RemoveCart: (state, action: PayloadAction<{ _id: number }>) => {
 
             const updatedCart = state.cart.filter((x) => x._id !== action.payload._id)
             state.cart = updatedCart;
-            localStorage.setItem(ActionTypes.ADD_ITEM_CARD, JSON.stringify(state.cart))
+            localStorage.setItem(ActionTypes?.ADD_ITEM_CARD, JSON?.stringify(state.cart))
 
         }
     }

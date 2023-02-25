@@ -4,7 +4,7 @@ import { TheSwiper } from '../../Components/Swiper/index'
 import { ResponseSize } from '../../Components/Swiper/Setting';
 import { SwiperSlide } from 'swiper/react';
 import { ItmeCart, TheSecandData,} from '../../Components/Data/index'
-import { Fragment, useContext, useState } from 'react';
+import { Fragment, useContext } from 'react';
 import { useAppSelector, useAppDispatch } from '../../Redux/store/index'
 import { RemoveCart } from '../../Redux/features/cart';
 import { UtilsOneProduct } from '../../Components/Context/index'

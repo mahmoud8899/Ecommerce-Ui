@@ -4,8 +4,8 @@ import TheInput from "../../Components/TheInput"
 import { UrlImage } from "../../Utils/Url"
 import Log from "../NavBar/Log"
 import MinNav from "../NavBar/Nav"
-
-
+import pizzaSlice from '../../Utils/update/6.png'
+import pizzaSliceNine from '../../Utils/update/8.png'
 
 const Footer = () => {
 
@@ -13,6 +13,22 @@ const Footer = () => {
 
     return (
         <Container fluid>
+
+            <Row className='justify-content-center  padding'>
+
+            <Col xs={6} ms={6} md={6} lg={6}>
+                   <div className="position">
+                   <Image src={pizzaSliceNine} className='Image imageheight object-fit ' />
+                   </div>
+                </Col>
+              
+                <Col xs={6} ms={6} md={6} lg={6}>
+                   <div className="position">
+                   <Image src={pizzaSlice} className='Image  imageheight object-fit ' />
+                   </div>
+                </Col>
+            </Row>
+
             <Row className='justify-content-center blackBa padding'>
                 <Col xs={6} sm={6} md={4} lg={4} className='Ma' >
                     <div >

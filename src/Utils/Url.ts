@@ -23,6 +23,7 @@ import Pizza15 from './pizza/15.jpeg'
 import Tx from './pizza/16.png'
 import close from './pizza/close.png'
 import comment from './Icons/comment3.png'
+import TestImage from './pizza/222.png'
 export const UrlImage = {
 
     ScreenImage: FirstImage,
@@ -48,6 +49,7 @@ export const UrlImage = {
     Pizza15: Pizza15,
     Tx: Tx,
     close: close,
-    comment : comment
+    comment : comment,
+    TestImage:TestImage
 
 }

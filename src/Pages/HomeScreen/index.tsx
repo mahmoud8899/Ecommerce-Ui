@@ -1,10 +1,11 @@
 
-import { Container } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import NewProducts from './NewProducts';
 import Discount from './Discount';
 import TheMenu from './Menu';
 import Delivery from './Delivery';
 import ShareFood from './ShareFood';
+import { UrlImage } from '../../Utils/Url';
 
 
 
@@ -22,6 +23,8 @@ const HomeScreen = () => {
         <Container fluid >
             <div className='margin-top' />
             <Discount />
+
+           
     
             <div className='margin-top' />
 

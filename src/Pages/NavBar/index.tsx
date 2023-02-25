@@ -1,5 +1,4 @@
-import { UrlImage } from '../../Utils/Url'
-import { Row, Col, Image, Container } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import { useState } from 'react'
 import MinNav from './Nav'
 import Log from './Log'
