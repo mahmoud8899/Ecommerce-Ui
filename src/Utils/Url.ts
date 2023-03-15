@@ -24,8 +24,9 @@ import Tx from './pizza/16.png'
 import close from './pizza/close.png'
 import comment from './Icons/comment3.png'
 import TestImage from './pizza/222.png'
+import texx from './pizza/pizzascreen.png'
 export const UrlImage = {
-
+    texx : texx,
     ScreenImage: FirstImage,
     Log: Logo,
     Pizza: Pizza,

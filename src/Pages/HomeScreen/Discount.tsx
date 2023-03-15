@@ -2,9 +2,9 @@
 import { Row, Col, Image, Form, } from 'react-bootstrap'
 import TheButton from '../../Components/Button'
 import { UrlImage } from '../../Utils/Url'
-import RigthImage from '../../Utils/update/111.png'
+
 import TheInput from '../../Components/TheInput'
-import RigthImage5 from '../../Utils/update/6.png'
+
 
 const Discount = () => {
 
@@ -50,7 +50,7 @@ const Discount = () => {
         <Col xs={11} sm={12} md={6} lg={6} className='margin-top'>
             <div className='flex justify-content-space-between  align-items'>
                 <Image
-                    src={RigthImage}
+                    src={UrlImage.texx}
                     className='Image '
                 />
             </div>
